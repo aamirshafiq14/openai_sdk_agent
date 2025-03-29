@@ -1,0 +1,17 @@
+[project]
+name = "openai-sdk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "aamirshafiq14", email = "aamirshafiq1407@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+openai-sdk = "openai_sdk:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
