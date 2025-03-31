@@ -7,10 +7,13 @@ authors = [
     { name = "aamirshafiq14", email = "aamirshafiq1407@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "openai-agents>=0.0.7",
+]
 
 [project.scripts]
 openai-sdk = "openai_sdk:main"
+agent1 = "openai_sdk.main:agent"
 
 [build-system]
 requires = ["hatchling"]
